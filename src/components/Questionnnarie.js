@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-
 import MCQ from "./MCQS/MCQ";
 import Text from "./Text/Text";
 import Number from "./Numbers/Number";
