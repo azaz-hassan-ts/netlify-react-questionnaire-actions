@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import StyledRadio from "./StyledRadio";
 import useStyles from "./useStyles";
-import PropTypes from "prop-types";
 import {
   Typography,
   RadioGroup,

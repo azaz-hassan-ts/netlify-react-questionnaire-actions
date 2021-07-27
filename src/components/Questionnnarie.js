@@ -12,9 +12,8 @@ function Questionnnaire() {
   const dispatch = useDispatch();
   const state = useSelector(state => state.questions);
   useEffect(() => {
-
     dispatch(fetchQuestions());
-  }, []);
+  });
   const [answers, setAnswers] = useState([]);
 
   if (state.status === "loading") {
